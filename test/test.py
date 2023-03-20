@@ -1,2 +1,3 @@
-a=int(input("Enter a number"))
-print(f"hello world {a}")
+a = int(input("Enter a number"))
+for i in range(a):
+    print(f"hello world {i}")
